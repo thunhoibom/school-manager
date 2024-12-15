@@ -1,0 +1,32 @@
+.login{
+    background-image: url('../../assets/we-bare-bears-1920-x-1080-v0-251hxx1buqta1.webp');
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.login_form{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+
+
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.login_form_input-frame{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 1rem;
+}
